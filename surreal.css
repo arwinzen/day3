@@ -29,7 +29,7 @@ html, body {
     width:125px;
     height: 110px;
     position: absolute;
-    background-color: rgba(218, 213, 206,0.2);
+    /* background-color: rgba(218, 213, 206,0.2); */
     left: 900px;
     top: 135px;
     letter-spacing: 5px;
@@ -41,7 +41,7 @@ html, body {
     width: 176px;
     height: 131px;
     position: absolute;
-    background-color: rgba(218, 213, 206,0.2);
+    /* background-color: rgba(218, 213, 206,0.2); */
     left: 157px;
     top: 130px;
 }
@@ -66,18 +66,31 @@ html, body {
     width: 450px;
     height: 319px;
     position: absolute;
-    background-color: rgba(218, 213, 206,0.2);
-    left: 753px;
-    top: 1375px;
+    /* background-color: rgba(218, 213, 206,0.2); */
+    left: 758px;
+    top: 1295px;
+    font-size: 15px;
+    letter-spacing: 6px;
+}
+
+#artists {
+    margin-bottom: 35px;
+}
+
+.artist-desc {
+    font-weight: 300;
+    margin: 12px 0;
 }
 
 #bottom-left {
-    width: 190px;
+    width: 250px;
     height: 131px;
     position: absolute;
-    background-color: rgba(218, 213, 206,0.2);
+    /* background-color: rgba(218, 213, 206,0.2); */
     left: 130px;
-    top: 1454px;
+    top: 1481px;
+    font-size: 12.5px;
+    letter-spacing: 5px;
 }
 
 #middle {
@@ -134,14 +147,77 @@ html, body {
     left: 445px;
     top: 370px;
     transform: scale(0.8);
+    z-index: 1;
 }
 
 .lines {
-    background: white;
-    height: 5px;
+    background-color: white;
+    height: 10px;
 }
 
-/* #top-left-line {
-    width: 100px;
-    height: 100px;
-} */
+#top-vertical-line {
+    width: 10px;
+    height: 235px;
+    left: 120px;
+}
+
+#top-right-line {
+    width: 125px;
+    top: 140px;
+    left: 1030px;
+}
+
+#upper-mid-line {
+    width: 695px;
+    top: 375px;
+    left: 460px;
+    z-index: 0;
+}
+
+#lower-mid-line {
+    width: 700px;
+    top:1150px;
+    left: 185px;
+    z-index: 0;
+}
+
+#bottom-right-line {
+    width: 125px;
+    top:1270px;
+    left: 760px;
+}
+
+#bottom-left-line {
+    width: 45px;
+    top:1460px;
+    left: 130px;
+}
+
+#bottom-vertical-line {
+    width: 10px;
+    height: 444px;
+    bottom: 0px;
+    left: 730px;
+}
+
+.tiny-squares {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    position: absolute;
+}
+
+#square1 {
+    top: 140px;
+    left: 850px;
+}
+
+#square2 {
+    top: 175px;
+    left: 850px;
+}
+
+#square3 {
+    top: 140px;
+    left: 815px;
+}
