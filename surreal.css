@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;600;700;800&display=swap');
 
-*{margin: 0; padding: 0; font-family: 'Poppins', sans-serif; color: white;}
+*{margin: 0; padding: 0; font-family: 'Montserrat', sans-serif; color: white;}
 
 html, body {
     width: 1301px;
@@ -8,7 +8,7 @@ html, body {
 }
 
 .text {
-    letter-spacing: 5px;
+    letter-spacing: 10px;
 }
 
 #poster {
@@ -47,18 +47,19 @@ html, body {
 }
 
 #top-left h3 {
-    margin-left: 70px;
+    margin-left: 90px;
     font-size: 20px;
 }
 
 #top-left h2 {
-    font-weight: 200;
-    font-size: 38px;
+    font-weight: 300;
+    font-size: 33px;
 }
 
 #top-left h1 {
     font-size: 48px;
     line-height: 45px;
+    font-weight: 700;
 }
 
 #bottom-right {
@@ -83,8 +84,8 @@ html, body {
     width: 1073px;
     height: 911px;
     position: relative;
-    background-color: rgba(218, 213, 206,0.2);
-    left: 95px;
+    /* background-color: rgba(218, 213, 206,0.2); */
+    left: 120px;
     top: 350px;
 }
 
@@ -96,36 +97,43 @@ html, body {
     font-size: 100px;
     letter-spacing: 40px;
     z-index: 3;
+    font-weight: 800;
+    top: 50px;
+    left: 50px;
 }
 
 #heading2 {
-    font-size: 75px;
+    font-size: 70px;
     z-index: 0;
-    left: 450px;
-    top: 350px;
-    letter-spacing: 40px;
+    left: 510px;
+    top: 325px;
+    letter-spacing: 30px;
 }
 
 #heading3 {
     font-size: 100px;
     letter-spacing: 40px;
-    top: 600px;
+    top: 550px;
+    left: 50px;
 }
 
 #shoe {
     top:10px;
-    left: 310px;
+    left: 400px;
     z-index: 2;
+    transform: scale(0.91);
 }
 
 #moon {
-    top: 250px;
-    left: 100px;
+    top: 260px;
+    left: 180px;
+    transform: scale(0.85);
 }
 
 #pineapple {
-    left: 300px;
-    top: 400px;
+    left: 445px;
+    top: 370px;
+    transform: scale(0.8);
 }
 
 .lines {
