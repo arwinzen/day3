@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+*{margin: 0; padding: 0; font-family: 'Poppins', sans-serif; color: white;}
+
+html, body {
+    width: 1301px;
+    height: 1838px;
+}
+
+.text {
+    letter-spacing: 5px;
+}
+
+#poster {
+    height: 100%;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    background-image: url(images/bg-2.png);
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+#poster div {
+    position: absolute;
+}
+
+#top-right {
+    width:125px;
+    height: 110px;
+    position: absolute;
+    background-color: rgba(218, 213, 206,0.2);
+    left: 900px;
+    top: 135px;
+    letter-spacing: 5px;
+    line-height: 35px;
+    font-size: 20px;
+}
+
+#top-left {
+    width: 176px;
+    height: 131px;
+    position: absolute;
+    background-color: rgba(218, 213, 206,0.2);
+    left: 157px;
+    top: 130px;
+}
+
+#top-left h3 {
+    margin-left: 70px;
+    font-size: 20px;
+}
+
+#top-left h2 {
+    font-weight: 200;
+    font-size: 38px;
+}
+
+#top-left h1 {
+    font-size: 48px;
+    line-height: 45px;
+}
+
+#bottom-right {
+    width: 450px;
+    height: 319px;
+    position: absolute;
+    background-color: rgba(218, 213, 206,0.2);
+    left: 753px;
+    top: 1375px;
+}
+
+#bottom-left {
+    width: 190px;
+    height: 131px;
+    position: absolute;
+    background-color: rgba(218, 213, 206,0.2);
+    left: 130px;
+    top: 1454px;
+}
+
+#middle {
+    width: 1073px;
+    height: 911px;
+    position: relative;
+    background-color: rgba(218, 213, 206,0.2);
+    left: 95px;
+    top: 350px;
+}
+
+#middle * {
+    position: absolute;
+}
+
+#heading1 {
+    font-size: 100px;
+    letter-spacing: 40px;
+    z-index: 3;
+}
+
+#heading2 {
+    font-size: 75px;
+    z-index: 0;
+    left: 450px;
+    top: 350px;
+    letter-spacing: 40px;
+}
+
+#heading3 {
+    font-size: 100px;
+    letter-spacing: 40px;
+    top: 600px;
+}
+
+#shoe {
+    top:10px;
+    left: 310px;
+    z-index: 2;
+}
+
+#moon {
+    top: 250px;
+    left: 100px;
+}
+
+#pineapple {
+    left: 300px;
+    top: 400px;
+}
+
+.lines {
+    background: white;
+    height: 5px;
+}
+
+/* #top-left-line {
+    width: 100px;
+    height: 100px;
+} */
